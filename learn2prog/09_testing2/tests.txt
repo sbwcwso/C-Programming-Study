@@ -1,0 +1,37 @@
+a
+a b
+
+123 
+abc 123
+nihao
+😄
+123 👍
+aaaaaa 456
+a b c
+  b  c  d
+aaaaa bbbbb
+aaaaa bbbbc
+aaabb bbbbc
+aaabb bbbbc cc
+☁️ ☁️
+aa bb c
+:wq
+
+a b
+aaa bbb
+123 456
+abc 123
+nihao hello
+😄 😃
+123 👍 456 👎
+aaaaaa bbbbbb
+a b c d e
+  b c d e f
+aaaaa bbbbb  
+aaaaa bbbbc
+aaabb bbbbc
+aaabb bbbbc ccddd
+☁️ ☁️ ☁️
+aa bb cc
+aaabc bbbbc
+abcde fghij
