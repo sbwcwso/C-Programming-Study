@@ -1,58 +1,19 @@
-Grading at Sat 23 Dec 2023 05:18:51 AM UTC
+Grading at Mon 05 Dec 2022 07:15:48 AM UTC
 #################################################
 test input.1:
 Your file matched the expected output
 input.1 passed
 #################################################
 test input.2:
-Line_1_did_not_match
-Your file did not match the expected ouput
-input.2 failed, your output did not match with the answer
+Your file matched the expected output
+input.2 passed
 #################################################
 test input.3:
-I expected to find a file called 'input.3' but it did not exist
-(or was not a regular file)
-Here are the files that I can find:
-bk2.txt
-bk3.txt
-bk4.txt
-correct_output.txt
-correct.txt
-grade.txt
-input.1
-input.2
-isPrime-broken1
-isPrime-broken2
-isPrime-broken3
-isPrime-broken4
-isPrime-correct
-README
-student.txt
-test2.sh
-test3.sh
-test4.sh
+Your file matched the expected output
+input.3 passed
 #################################################
 test input.4:
-I expected to find a file called 'input.4' but it did not exist
-(or was not a regular file)
-Here are the files that I can find:
-bk2.txt
-bk3.txt
-bk4.txt
-correct_output.txt
-correct.txt
-grade.txt
-input.1
-input.2
-isPrime-broken1
-isPrime-broken2
-isPrime-broken3
-isPrime-broken4
-isPrime-correct
-README
-student.txt
-test2.sh
-test3.sh
-test4.sh
+Your file matched the expected output
+input.4 passed
 
-Overall Grade: D
+Overall Grade: A
