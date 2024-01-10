@@ -1,37 +1,23 @@
-a
-a b
+12345 
+12345 1
+12345 12
+12345 123
+12345 1234
+12345 123456
 
-123 
-abc 123
-nihao
-😄
-123 👍
-aaaaaa 456
-a b c
-  b  c  d
-aaaaa bbbbb
-aaaaa bbbbc
-aaabb bbbbc
-aaabb bbbbc cc
-☁️ ☁️
-aa bb c
-:wq
+123456 12345
+1234 12345
+123 12345
+12 12345
+1 12345
 
-a b
-aaa bbb
-123 456
-abc 123
-nihao hello
-😄 😃
-123 👍 456 👎
-aaaaaa bbbbbb
-a b c d e
-  b c d e f
-aaaaa bbbbb  
-aaaaa bbbbc
-aaabb bbbbc
-aaabb bbbbc ccddd
-☁️ ☁️ ☁️
-aa bb cc
-aaabc bbbbc
-abcde fghij
+12345 12345 12345
+
+12345 12345
+11345 12345
+12345 11345
+11145 11345
+11114 11145
+11111 11115
+
+34511 12345

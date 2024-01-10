@@ -5,7 +5,7 @@ run_test(){
     IFS=$'\n'
     for line in `cat $testfile`
     do
-	IFS=" " correct=`/usr/local/l2p/match5/correct-match5 $line 2>&1`
+	IFS=" " correct=`./match5/correct-match5 $line 2>&1`
 	IFS=" " broken=`$prog $line 2>&1`
 	if [ "$broken" != "$correct" ]
 	then
@@ -17,7 +17,7 @@ run_test(){
 
 found=0
 notfound=0
-for i in /usr/local/l2p/match5/match5-*
+for i in ./match5/match5-*
 do
     run_test $i tests.txt
     x="$?"
