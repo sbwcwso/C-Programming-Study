@@ -1,0 +1,53 @@
+Grading at Thu 18 Jan 2024 11:34:04 AM UTC
+**Testing broken implementation 10 **
+-------------------------------------
+
+power(87 2) != 7569
+**Testing broken implementation 11 **
+-------------------------------------
+
+power(87 1) != 87
+**Testing broken implementation 1 **
+-------------------------------------
+
+power(0 1) != 0
+**Testing broken implementation 2 **
+-------------------------------------
+
+power(0 1) != 0
+**Testing broken implementation 3 **
+-------------------------------------
+
+power(0 0) != 1
+**Testing broken implementation 4 **
+-------------------------------------
+
+power(2147483648 1) != 2147483648
+**Testing broken implementation 5 **
+-------------------------------------
+
+power(1 2) != 1
+**Testing broken implementation 6 **
+-------------------------------------
+
+power(0 1) != 0
+**Testing broken implementation 7 **
+-------------------------------------
+
+power(0 1) != 0
+**Testing broken implementation 8 **
+-------------------------------------
+
+power(1 2) != 1
+**Testing broken implementation 9 **
+-------------------------------------
+
+power(1 1) != 1
+**Testing correct implementation **
+-------------------------------------
+
+
+All tests were ok.
+
+
+Overall Grade: PASSED
