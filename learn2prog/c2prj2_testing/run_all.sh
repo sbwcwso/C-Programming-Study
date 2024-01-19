@@ -3,7 +3,7 @@ run_test(){
     prog="$1"
     testfile="$2"
     IFS=$'\n'
-    IFS=" " correct=`/usr/local/l2p/poker/correct-test-eval $testfile 2>&1`
+    IFS=" " correct=`./poker/correct-test-eval $testfile 2>&1`
     IFS=" " broken=`$prog $testfile 2>&1`
     if [ "$broken" != "$correct" ]
     then
@@ -14,7 +14,7 @@ run_test(){
 
 found=0
 notfound=0
-for i in /usr/local/l2p/poker/test-eval-*
+for i in ./poker/test-eval-*
 do
     run_test $i tests.txt
     x="$?"
