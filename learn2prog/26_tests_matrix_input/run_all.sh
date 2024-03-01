@@ -5,7 +5,7 @@ run_test() {
     IFS=$'\n'
     for line in `cat $testfile | sed 's/^$/ /'`
     do
-	IFS=" " correct=`/usr/local/l2p/rot_matrix/rotateMatrix $line 2>&1`
+	IFS=" " correct=`./rot_matrix/rotateMatrix $line 2>&1`
 	IFS=" " broken=`$prog $line 2>&1`
 	if [ "$broken" != "$correct" ]
 	then
@@ -15,9 +15,9 @@ run_test() {
     return 1
 }
 
-for i in /usr/local/l2p/rot_matrix/rotateMatrix*
+for i in ./rot_matrix/rotateMatrix*
 do
-    if [ "$i" != "/usr/local/l2p/rot_matrix/rotateMatrix" ]
+    if [ "$i" != "./rot_matrix/rotateMatrix" ]
        then
 	   echo "Checking `basename $i`"
 	   run_test $i tests.txt

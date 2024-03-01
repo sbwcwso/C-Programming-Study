@@ -22,7 +22,7 @@ int * arrayMax(int * array, int n) {
 
 char FindMostCommonLetter(FILE * f) {
   int counts[ALPHA_SIZE] = {0};
-  char ch;
+  int ch;
   while ( (ch = fgetc(f)) != EOF ) {
     if (isalpha(ch)) {
       counts[tolower(ch) - 'a']++;
