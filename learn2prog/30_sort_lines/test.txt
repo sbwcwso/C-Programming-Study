@@ -1,0 +1,4 @@
+This is a sample test case
+go!
+it checks your program's one argument behavior
+
