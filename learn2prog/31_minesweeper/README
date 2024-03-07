@@ -72,7 +72,7 @@ from the "standard" game:
    down the left side to reduce counting.
 
  - The game will automatically figure out the "obvious" squares:
-   both mines and non-mined spaces.  It will reveal these too you 
+   both mines and non-mined spaces.  It will reveal these to you 
    as soon as it considers them trivial to figure out.  
  
  - You cannot manually mark a square that you suspect has a mine
