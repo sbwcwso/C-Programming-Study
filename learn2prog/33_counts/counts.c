@@ -58,7 +58,7 @@ void printCounts(counts_t * c, FILE * outFile) {
     fprintf(outFile, "%s: %d\n", countsArray[i]->name, countsArray[i]->count);
   }
   if (c->unkonwCount > 0) {
-    fprintf(outFile, "<unknown>: %d\n", c->unkonwCount);
+    fprintf(outFile, "<unknown> : %d\n", c->unkonwCount);
   }
 }
 
