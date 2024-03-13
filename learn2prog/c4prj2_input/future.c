@@ -10,12 +10,6 @@ void add_future_card(future_cards_t * fc, size_t index, card_t * ptr) {
       perror("realloc error");
       exit(EXIT_FAILURE);
     }
-    deck_t * deck = malloc(sizeof(*deck));
-    if (deck == NULL) {
-      perror("malloc error");
-      exit(EXIT_FAILURE);
-    }
-
     (fc->decks)[index].cards = NULL;
     (fc->decks)[index].n_cards = 0;
   }
